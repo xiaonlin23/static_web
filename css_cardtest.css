@@ -9,12 +9,20 @@ html {
   background-color: #ccc;
 }
 
-h2, p {
-    margin: 0;
+
+article{
+    width: 35em;
+    height: 22em;
+}
+img {
+   float: right;
+   width: 28.3%;
 }
 
-article p {
+article > p {
     background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
 }
 
 /* Selectors to be matched up with rulesets */
@@ -54,14 +62,5 @@ section {
   );
   border-radius: 0 0 1.5em 1.5em;
   content: 3em;
-    padding: 1em;
-}
-
-.card article img {
-    float: right;
-    max-width: 100%;
-}
-
-img p {
-    width: 35em;
+  padding: 1em;
 }
