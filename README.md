@@ -11,4 +11,6 @@
 > 两者的区别就是，`overflow`属性文字溢出的话显示在父级盒子里
 > `flow-root`属性文字移除显示在父级盒子外
 
-<img src="https://cdn.jsdelivr.net/gh/xiaonlin23/images/float.png"/>
+<img src="https://cdn.jsdelivr.net/gh/xiaonlin23/images/float.png" style="width:50%">
+
+<a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context#%E5%8C%85%E5%90%AB%E5%86%85%E9%83%A8%E6%B5%AE%E5%8A%A8">MDN_web_css_docs</a>
