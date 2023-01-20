@@ -6,6 +6,17 @@
     <meta name="description" content="A little test" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style_one.css" rel="stylesheet" />
+    <title>html_example</title>
+    <link href="../images/icons8-black-blood-24.png" rel="icon" type="image/x-icon">
+    <style>
+      p {
+        border: 2px solid black;
+      }
+      div {
+        border: 5px solid hsl(0, 94%, 69%);
+        margin-top: 10px;
+      }
+    </style>
   </head>
 
   <body>
@@ -70,6 +81,19 @@
         <p class="red">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
         <p class="left">This paragraph clears left.</p>
       </div>-->
-
+      <div style="direction: ltr;">
+        <p style="writing-mode: horizontal-tb;">假如这是中文呢<br>dhs horizontal</p>
+        <p style="writing-mode: vertical-rl;">假如这是中文呢<br>dsasd vertical_rl</p>
+        <p style="writing-mode: vertical-lr;">假如这是中文呢<br>sdds vertical_lr</p>
+        <p style="writing-mode: sideways-lr;">假如这是中文呢<br>dsds sideways_lr</p>
+        <p style="writing-mode: sideways-rl;">假如这是中文呢<br>dsds sideways_rl</p>
+      </div>
+      <div style="direction: rtl;">
+        <p style="writing-mode: horizontal-tb;">假如这是中文呢<br>sdds horizontal</p>
+        <p style="writing-mode: vertical-rl;">假如这是中文呢<br>sds vertical_rl</p>
+        <p style="writing-mode: vertical-lr;">假如这是中文呢<br>fdf vertical_lr</p>
+        <p style="writing-mode: sideways-lr;">假如这是中文呢<br>de sideways_lr</p>
+        <p style="writing-mode: sideways-rl;">假如这是中文呢<br>ewq sideways_rl</p>
+      </div>
   </body>
 </html>
