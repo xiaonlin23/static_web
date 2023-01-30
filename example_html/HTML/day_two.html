@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="Author" content="Karene Pitaya" />
+    <meta name="description" content="A little test" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>基础文本与字体样式化</title>
+    <style>
+      p {
+        color: red;
+        font-family: arial, "Trebuchet MS", Verdana, sans-serif;
+        font-size: 1.4rem;
+      }
+      html {
+        font-size: 10px;
+      }
+
+      h1 {
+        font-size: 3rem;
+      }
+      .last p::first-line {
+        letter-spacing: 2px;
+        word-spacing: 4px;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+
+      ul,
+      ol,
+      dl,
+      p {
+        font-size: 1.5rem;
+      }
+
+      li,
+      p {
+        line-height: 1.5;
+      }
+
+      dt {
+        font-weight: bold;
+      }
+
+      dd {
+        margin-bottom: 1.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="font">
+      <h1 style="font-family: 'Courier New', Courier, monospace">
+        This is the title
+      </h1>
+      <p
+        style="
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+            sans-serif;
+        "
+      >
+        This is a prograph
+      </p>
+      <p style="font-family: serif">This is a prograph</p>
+      <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+        This is a prograph
+      </p>
+      <p style="font-family: fantasy">This is a prograph</p>
+      <p style="font-family: 'Times New Roman', Times, serif">
+        This is a prograph
+      </p>
+    </div>
+    <div class="style">
+      <h1>This is second title</h1>
+      <p>This is a prograph</p>
+      <p>This is a prograph</p>
+      <p style="text-decoration: overline black dotted">This is a prograph</p>
+      <p style="text-decoration: underline blue wavy">This is a prograph</p>
+      <p style="font-weight: bold">This is a prograph</p>
+      <p style="font-style: italic">This is a prograph</p>
+    </div>
+    <div class="shadow">
+      <h1
+        style="
+          font-weight: bolder;
+          text-shadow: 2px 2px 2px;
+          text-align: center;
+        "
+      >
+        This is third title
+      </h1>
+      <h2 style="font-weight: bolder; text-shadow: 2px 2px 2px">
+        this is an other line to test for the others
+      </h2>
+      <p>
+        Said Tommy the Cat as he reeled back to clear whatever foreign matter
+        may have nestled its way into his mighty throat. Many a fat alley rat
+        had met its demise while staring point blank down the cavernous barrel
+        of this awesome prowling machine. Truly a wonder of nature this urban
+        predator — Tommy the cat had many a story to tell. But it was a rare
+        occasion such as this that he di
+      </p>
+      <h1
+        style="
+          font-size: 4.5rem;
+          text-align: center;
+          text-shadow: -1px -1px 1px #010000, 0px 4px 1px rgba(0, 0, 0, 0.5),
+            4px 4px 5px rgba(140, 135, 135, 0.7), 0px 0px 7px rgba(0, 0, 0, 0.4);
+        "
+      >
+        shadow for test
+      </h1>
+      <h1
+        style="
+          font-size: 4.5rem;
+          text-align: center;
+          background-color: rgb(44, 40, 40);
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          background-clip: text;
+          color: transparent;
+          text-shadow: rgba(205, 197, 197, 0.5) 2px 3px 6px;
+        "
+      >
+        shadow for test
+      </h1>
+      <h1
+        style="
+          font-size: 4.5rem;
+          text-align: center;
+          color: yellow;
+          text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7), 5px 5px 1px orange,
+            6px 6px 2px rgba(0, 0, 0, 0.7), 10px 10px 1px red,
+            11px 11px 2px rgba(0, 0, 0, 0.7), 15px 15px 1px purple,
+            16px 16px 2px rgba(0, 0, 0, 0.7);
+          -webkit-animation: text-snake 1s infinite alternate;
+          -moz-animation: text-snake 1s infinite alternate;
+          -ms-animation: text-snake 1s infinite alternate;
+          animation: text-snake 1s infinite alternate;
+        "
+      >
+        shadow for test
+      </h1>
+    </div>
+    <div class="last">
+      <h1 style="text-align: center">This is the last</h1>
+      <p style="line-height: 1.5">
+        Said Tommy the Cat as he reeled back to clear whatever foreign matter
+        may have nestled its way into his mighty throat. Many a fat alley rat
+        had met its demise while staring point blank down the cavernous barrel
+        of this awesome prowling machine. Truly a wonder of nature this urban
+        predator — Tommy the cat had many a story to tell. But it was a rare
+        occasion such as this that he di
+      </p>
+    </div>
+    <div>
+      <h2>Shopping (unordered) list</h2>
+
+      <p>
+        Paragraph for reference, paragraph for reference, paragraph for
+        reference, paragraph for reference, paragraph for reference, paragraph
+        for reference.
+      </p>
+
+      <ul style="list-style-type:square;border: 1px solid rgb(184, 184, 184);
+      list-style-image:url(../images/icons8-black-blood-24.png)">
+        <li>Humous</li>
+        <li>Pitta</li>
+        <li>Green salad</li>
+        <li>Halloumi</li>
+      </ul>
+
+      <h2>Recipe (ordered) list</h2>
+
+      <p>
+        Paragraph for reference, paragraph for reference, paragraph for
+        reference, paragraph for reference, paragraph for reference, paragraph
+        for reference.
+      </p>
+
+      <ol style="list-style-type:upper-roman; list-style-position: inside;" reversed>
+        <li>Toast pitta, leave to cool, then slice down the edge.</li>
+        <li>
+          Fry the halloumi in a shallow, non-stick pan, until browned on both
+          sides.
+        </li>
+        <li>Wash and chop the salad.</li>
+        <li>Fill pitta with salad, humous, and fried halloumi.</li>
+      </ol>
+
+      <h2>Ingredient description list</h2>
+
+      <p>
+        Paragraph for reference, paragraph for reference, paragraph for
+        reference, paragraph for reference, paragraph for reference, paragraph
+        for reference.
+      </p>
+
+      <dl >
+        <dt>Humous</dt>
+        <dd>
+          A thick dip/sauce generally made from chick peas blended with tahini,
+          lemon juice, salt, garlic, and other ingredients.
+        </dd>
+        <dt>Pitta</dt>
+        <dd>A soft, slightly leavened flatbread.</dd>
+        <dt>Halloumi</dt>
+        <dd>
+          A semi-hard, unripened, brined cheese with a higher-than-usual melting
+          point, usually made from goat/sheep milk.
+        </dd>
+        <dt>Green salad</dt>
+        <dd>
+          That green healthy stuff that many of us just use to garnish kebabs.
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>
