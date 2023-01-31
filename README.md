@@ -16,11 +16,11 @@
 <a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context#%E5%8C%85%E5%90%AB%E5%86%85%E9%83%A8%E6%B5%AE%E5%8A%A8">MDN_web_css_docs</a>
 ## DAY02-基本文本与字体样式化
 - 完成几种阴影样式
-![阴影样式](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675082755198.png)
+    ![阴影样式](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675082755198.png)
 - 熟悉了字体样式与文本操作
-![文本操作](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675082945354.png)
+    ![文本操作](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675082945354.png)
 - 样式化列表
-![](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675084738961.png)
+    ![](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675084738961.png)
 - 样式化链接
-![](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675132483123.png)
+    ![](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675132483123.png)
 - 测验：排版社区大学首页
