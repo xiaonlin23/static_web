@@ -27,3 +27,7 @@
   ![web字体](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675138636243.png)
 - 测验：排版社区大学首页
 ![测验](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675148390911.png)
+## DAY03-布局
+- flex
+![flex](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675348397942.png)
+[flex小游戏](https://flexboxfroggy.com/#zh-cn)
