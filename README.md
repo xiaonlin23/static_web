@@ -34,3 +34,5 @@
 - grid
 ![grid](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675416845440.png)
 [grid小游戏](https://cssgridgarden.com/#zh-cn)
+- float
+![float](https://cdn.jsdelivr.net/gh/xiaonlin23/images/uTools_1675421540832.png)
