@@ -23,7 +23,7 @@ thumbBar.addEventListener('click', function(e) {
     displayedImage.setAttribute('class',currentClass);
 });
 /* Wiring up the Darken/Lighten button */
-btn.onclick = function() {
+btn.addEventListener('click',function() {
     if (btn.getAttribute('class') === 'dark') {
         btn.setAttribute('class', 'light');
         btn.textContent = 'Lighten';
@@ -33,4 +33,4 @@ btn.onclick = function() {
         btn.textContent = 'Darken';
         overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
-}
+});
